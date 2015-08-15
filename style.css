@@ -1,0 +1,199 @@
+body{
+    background-color:#87CEFA;
+}
+#richnessInfo{
+	display:none;
+	position: relative;
+	top: -70px;
+	right: 20px;
+}
+#header{
+    background-color:gray;
+    width:99.5%;
+    height:100px;
+    border-radius:5px;
+    border: 2px solid black;
+    display:block;
+    text-align:center;
+    margin-top:-30;
+}
+#richnessIndex{
+    color:orange;
+    font-size:1.4em;
+}
+
+#blue{
+	
+	width: 20%;
+	
+	height:1000px;
+	position:fixed;
+}
+#white{
+	
+	height:600px;
+	
+	position: fixed;
+	left:25%;
+	width:600px;
+}
+#red{
+	
+	width:20%;
+	height:800px;
+	
+	position:fixed;
+	right:0.5%;
+}
+#orange{
+	background-color:orange;
+	position:relative;
+	top:330px;
+}
+
+#infoBox{
+    width:165;
+    background-color:goldenrod;
+    border-radius:5px;
+    border: 2px solid white;
+    padding-left:4px;
+    float:left;
+	display: block;
+}
+
+h4 {
+    color:white;
+    float:right;
+    margin: 5;
+    font-family: courier;
+}
+#currentMoney{
+    text-align:center;
+    margin:auto;
+    margin-top:20px;
+}
+#oilButton{
+    position:relative;
+    background-color:#cb0;
+    width:130;
+    height:55;
+    font-size:20px;
+    border-radius:10px;
+    border: 2px solid white;
+    text-align:center;
+    margin:auto;
+    margin-top:10px;
+    color:#c92200;
+    
+}
+#oilButton:hover{
+    background-color:#cccc00;
+}
+#oilButton:active{
+    position:relative;
+	top:1px;
+}
+
+#drillerList{
+    width:170px;
+    margin-top:40px;
+    margin-left:0px;
+	position: fixed;
+	top:250px;
+}
+.driller{
+    position:relative;
+    text-align:left;
+    width:170px;
+    height:50px;
+    margin-top:1px;
+    border-radius:3px;
+    border:1px solid black;
+    color:#bbbbbb;
+    font-size:1.1em;
+    background-color:green;
+    padding:3px;
+}
+.driller:hover{
+    background-color:SeaGreen;
+}
+.driller:active{
+    position:relative;
+	top:1px;
+}
+.drillName{
+    float:left;
+    margin-top:0px;
+    display:block;
+    
+}
+.drillNum{
+    font-size:15;
+    float:right;
+    position:relative;
+    display:block;
+}
+
+
+#industryList{
+    margin:20px;
+}
+.industryContainer {
+    width:180px;
+    height:120px;
+    margin: 0 5px 0 0;
+    float:left;
+}
+.industry{
+    width:180px;
+    height:120px;
+    margin-top:1px;
+    border-radius:3px;
+    border:1px solid black;
+    color:#bbbbbb;
+    font-size:1.1em;
+    background-color:green;
+	color: #F0F000;
+}
+.industry:hover{
+    background-color:SeaGreen;
+}
+.industry:active{
+    position:relative;
+	top:1px;
+}
+.industryCost{
+	float:left;
+}
+.industryNum{
+	float:right;
+}
+#toyContainer{
+	display:none;
+}
+#roadwayContainer{
+	display:none;
+}
+
+#politicBar{
+    background-color:white;
+    height:256px;
+    width:30px;
+    border:5px solid #ff6666;
+    border-radius:10px;
+    float:right;
+    margin:20px;
+	position:fixed;
+	top:375px;
+	display:none;
+}
+
+#mercury{
+	position:relative;
+	bottom:-256px;
+	background-color:blue;
+	width:30px;
+	height:0px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}

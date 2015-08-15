@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='style.css'/>
+	<script src="jquery.js"></script>
+	<script src='script.js'></script>
+	
+	<title>Oil Clicker</title>
+</head>
+<body>
+	
+	<div id="header">
+        <h1>Welcome to the world of Oil Clicker!</h1>
+        <em>Let's get rich!</em>
+        
+    </div>
+	
+	<div id="blue">
+	<div id="infoBox">
+        Harvested oil:<br><a id="harvestedOil">0L</a><br>
+        Oil per drill:<br><a id="oilPerDrill">0L</a><br>
+        $ per drill:<br><a id="moneyPerDrill">$0</a><br>
+        Lifetime money:<br><a id="totalMoney">$10</a>
+    </div>
+	
+    <div id="drillerList">
+		<div id="pickaxe" class="driller"><a class="drillName">Pickaxe</a> <br> <a id="pickaxeCost" class="drillCost">$10</a> <a id="pickaxeNum" class="drillNum">0</a></div>
+		<div id="gnome" class="driller"><a class="drillName">Gnome</a> <br> <a id="gnomeCost" class="drillCost">$200</a> <a id="gnomeNum" class="drillNum">0</a></div>
+        <div id="piledriver" class="driller"><a class="drillName">Pile Driver</a> <br> <a id="piledriverCost" class="drillCost">$5000</a> <a id="piledriverNum" class="drillNum">0</a></div>
+		<div id="oompa" class="driller"><a class="drillName">Oompa Loompa</a> <br> <a id="oompaCost" class="drillCost">$25000</a> <a id="oompaNum" class="drillNum">0</a></div>
+		<div id="mole" class="driller"><a class="drillName">Mole Man</a> <br> <a id="moleCost" class="drillCost">$100000</a> <a id="moleNum" class="drillNum">0</a></div>
+		<div id="exca" class="driller"><a class="drillName">Excavator</a> <br> <a id="excaCost" class="drillCost">$20000000</a> <a id="excaNum" class="drillNum">0</a></div>
+		<div id="oilDrill" class="driller"><a class="drillName">Oil Drill</a> <br> <a id="oilDrillCost" class="drillCost">$100000000</a> <a id="oilDrillNum" class="drillNum">0</a></div>
+		<div id="unknown" class="driller"><a class="drillName">The Unknown</a> <br> <a id="unknownCost" class="drillCost">$5000000000</a> <a id="unknownNum" class="drillNum">0</a></div>
+		<!--<button type="button" onclick="buyGnome()" class="driller"><a class="drillName">Gnome</a> <br> <a id="gnomeCost" class="drillCost">$10</a> <a id="gnomeNum" class="drillNum">0</a></button>
+        <button type="button" onclick="buyOompa()" class="driller"><a class="drillName">Oompa loompa</a> <br> <a id="oompaCost" class="drillCost">$200</a> <a id="oompaNum" class="drillNum">0</a></button>
+        <button type="button" class="driller"><a class="drillName">Miner</a> <br> <a id="minerCost" class="drillCost">$1</a> <a id="minerNum" class="drillNum">0</a></button>
+        <button type="button" class="driller"><a class="drillName">Mole people</a> <br> <a id="moleCost" class="drillCost">$1</a> <a id="moleNum" class="drillNum">0</a></button>
+        <button type="button" class="driller"><a class="drillName">Excavator</a> <br> <a id="excaCost" class="drillCost">$1</a> <a id="excaNum" class="drillNum">0</a></button>
+        <button type="button" class="driller"><a class="drillName">Oil drill</a> <br> <a id="oildrillCost" class="drillCost">$1</a> <a id="oildrillNum" class="drillNum">0</a></button>-->
+    </div>
+
+	</div>
+	
+	<div id="white">
+		<div id="currentMoney">
+			<h1 id="money">$10</h1>
+			<button type="button" id="oilButton"><strong>One, two, ...</strong></button>
+		</div>
+	
+	
+	<div id="orange">
+    
+    <div id="industryList">
+        <div id="carFactoryContainer" class="industryContainer">
+        <button type="button" class="industry" id="carFactory">Car Factory<br> <br> <br> <br> <a id="carFactoryCost" class= "industryCost">$1000</a> <a id="carFactoryNum" class="industryNum">0</a></button>
+        </div>
+        <div id="toyContainer" class="industryContainer">
+        <button type="button" class="industry" id="toy">McToys<br> <br> <br> <br> <a id="toyCost" class= "industryCost">$1000000</a> <a id="toyNum" class="industryNum">0</a></button>
+        </div>
+        <div id="roadwayContainer" class="industryContainer">
+        <button type="button" class="industry" id="roadway">Petroleum <em>freakin'</em> roadways<br> <br> <br> <a id="roadwayCost" class= "industryCost">$10000000000</a> <a id="roadwayNum" class="industryNum">0</a></button>
+        </div>
+    </div>
+    
+    </div>
+		
+	</div>
+	
+	
+	<div id="red">
+		<div>
+			<h4 id="richnessInfo">You are the <a id="richnessIndex">100th</a><br>richest person on earth</h4>
+			<div id="politicBar"><div id="mercury"></div></div>
+		</div>
+	</div>	
+	
+	
+
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+
+	
+    
+</body>
+</html>
